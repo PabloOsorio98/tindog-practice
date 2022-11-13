@@ -1,0 +1,201 @@
+/* Tag Section */
+
+body{
+    font-family: 'Montserrat', 'sans-serif';
+    text-align: center;
+}
+
+
+p{
+    color: #8f8f8f;
+}
+
+/* Headings */
+
+.main-heading{
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.section-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+/* Title Section */
+
+#title{
+    text-align: left;
+}
+
+/* Containers */
+
+.container-fluid{
+    padding: 3% 10% 8%;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #FF4C68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+}
+
+/* Download Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image{
+    width: 18%;
+    padding-bottom: 30px;
+    transform: rotate(25deg);
+    position:absolute;
+    right: 20%;
+}
+
+/* Features Section */
+
+#features{  
+    padding: 7% 15%;
+    position: relative;
+}
+
+.feature-title{
+    font-weight: 700;
+}
+
+.feature-info{
+    line-height: 2;
+    padding: 5%;
+}
+
+.feature-icon{
+    margin-bottom: 1.2rem;
+    color: #EF8172;
+}
+
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonials Section*/
+
+#testimonials{
+    background-color: #EF8172;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 50%;
+    margin: 1.2rem;
+}
+
+.testimonial-person{
+    font-size: 1.5rem;
+}
+
+#press{
+    background-color: #EF8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 5%;
+}
+
+.pricing-pack-title{
+    font-weight: 700;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.price-text{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+/* Call to Action Section */
+
+#cta{
+    padding: 3% 20% 5%;
+}
+
+.cta-button{
+    margin: 2% 1% 0;
+}
+
+/* Footer Section */
+
+#footer{
+    padding: 5% 20%;
+}
+
+.cta-icon{
+    text-decoration: none;
+    color: #393E46;
+    margin: 0 1% 2%;
+}
+
+.cta-icon:hover{
+    color: #25272b;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+        width: 50%;
+    }
+}
